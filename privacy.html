@@ -6,11 +6,12 @@
 <title>Privacy Policy · Bots on the Board</title>
 <style>
   body { margin: 0; font: 17px/1.6 "Segoe UI", system-ui, sans-serif; color: #1f2833; background: #f6f7f4; }
-  main { max-width: 680px; margin: 0 auto; padding: 48px 20px; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 20px; }
   h1 { font-size: 30px; margin: 0 0 4px; }
   h2 { font-size: 20px; margin-top: 28px; }
   a { color: #1f5fbf; }
   .muted { color: #5a6069; }
+  .yt { display: inline-block; background: #ff0000; color: #fff; font-weight: 700; border-radius: 6px; padding: 2px 8px; font-size: 14px; }
 </style>
 </head>
 <body>
@@ -22,30 +23,37 @@
     <a href="https://www.youtube.com/@BotsOnTheBoard">Bots on the Board</a> YouTube channel. It is not offered to the public;
     the only person who signs in to it is the channel owner.</p>
 
-  <h2>What Google data the app uses</h2>
-  <p>When the channel owner signs in with Google, the app asks for two YouTube permissions:</p>
+  <h2><span class="yt">YouTube</span> This app uses YouTube API Services</h2>
+  <p>The app uses <b>YouTube API Services</b> to upload and manage the channel owner's own videos. By using the app you agree to be bound by the
+    <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of your data is described in the
+    <a href="http://www.google.com/policies/privacy">Google Privacy Policy</a>.</p>
+
+  <h2>What data the app accesses, and why</h2>
+  <p>When the channel owner signs in with Google, the app asks for these permissions:</p>
   <ul>
     <li><b>Manage your YouTube videos</b> (youtube.upload): to upload the channel's own videos, with their title, description and tags, and schedule when they go public.</li>
-    <li><b>View your YouTube account</b> (youtube.readonly): to read the channel name and the view, like and comment counts of videos the app uploaded, so it can learn which videos work best.</li>
+    <li><b>View your YouTube account</b> (youtube.readonly): to read the channel name, search public YouTube videos for trending topics, and read view, like and comment counts of the channel's own videos.</li>
+    <li><b>Manage your YouTube account</b> (youtube.force-ssl): only to post one comment from the channel under its own new videos, and to set a video's thumbnail.</li>
+    <li><b>View YouTube Analytics reports</b> (yt-analytics.readonly and yt-analytics-monetary.readonly): to read the channel's own subscriber, view, watch-time and revenue totals.</li>
   </ul>
-  <p>The app does not read, change or delete any other videos, playlists, comments, subscribers or personal information.</p>
+  <p>The app does not read, change or delete any other videos, playlists, comments, subscribers or personal information, and never accesses any other user's account.</p>
 
-  <h2>How the data is stored and shared</h2>
-  <p>The sign-in token and the video statistics are stored only on the channel owner's own computer. They are not sent to any server run by us,
-    and are not sold, shared or used for advertising. Video scripts are written with help from an AI service (Anthropic's Claude), which receives
-    public news facts and video text, never Google account data.</p>
-  <p>The app's use of information received from Google APIs adheres to the
-    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.
-    YouTube is used under the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and Google's handling of data is described in the
-    <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+  <h2>How the data is used, stored and shared</h2>
+  <p>The Google sign-in token, the channel's video statistics and analytics totals are stored only on the channel owner's own computer, in the app's data folder.
+    They are used only to publish the channel's videos and to show the owner how the channel is performing. They are not sent to any server run by us, and are
+    not sold, shared or used for advertising. Statistics are refreshed at least every 30 days, and older copies are overwritten.</p>
+  <p>Video scripts are written with help from an AI service (Anthropic's Claude), which receives public news facts and video text, never Google account data or YouTube API data about users.
+    The app does not use cookies and does not collect information about anyone viewing this website.</p>
 
-  <h2>Removing access</h2>
-  <p>Access can be removed at any time from your Google Account at
-    <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Disconnecting in the app also deletes the stored token from the computer.</p>
+  <h2>Removing access and deleting data</h2>
+  <p>You can revoke the app's access at any time from your Google security settings at
+    <a href="https://security.google.com/settings/security/permissions">security.google.com/settings/security/permissions</a>.
+    Disconnecting in the app immediately deletes the stored token from the computer. To have any stored YouTube data deleted, email the contact below;
+    it will be deleted within 7 days.</p>
 
   <h2>Contact</h2>
-  <p>Questions: <a href="mailto:glen.hankin@googlemail.com">glen.hankin@googlemail.com</a></p>
-  <p><a href="index.html">Back to Bots on the Board</a></p>
+  <p>Questions or deletion requests: <a href="mailto:glen.hankin@googlemail.com">glen.hankin@googlemail.com</a></p>
+  <p><a href="index.html">Home</a> · <a href="terms.html">Terms of Service</a></p>
 </main>
 </body>
 </html>
